@@ -1,0 +1,7 @@
+var name = 'Danie',
+    email = 'carlosmaroto.21@campuscamara.es'
+    phone = '999999999'
+
+module.exports.nombre = name;
+module.exports.correo = email;
+module.exports.telefono = phone;
