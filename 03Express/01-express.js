@@ -3,6 +3,8 @@ const express = require('express') //Requiere express
 const app = express() //Variable para disponer de todas las variables de Express
 const port = 3000 //Puerto de escucha
 
+app.set('view engine', 'ejs');
+
 app.use(express.static(__dirname+'/public'));
 
 app.use('/', (req, res) => {
